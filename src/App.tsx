@@ -8,6 +8,8 @@ import { Genre } from "./hooks/useGenres";
 function App() {
   const [selctedGenre, setSelctedGenre] = useState<Genre | null>(null);
 
+  // TODO: 22-Building Platform Selector
+
   return (
     <Grid
       templateAreas={{
